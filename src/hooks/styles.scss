@@ -1,0 +1,17 @@
+.select {
+  width: 340px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: black;
+  outline: none;
+  border: solid 1px rgb(88, 190, 243);
+  border-radius: 2rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0 1rem 0 0;
+}
+@media only screen and (max-width: 750px) {
+  .select {
+    margin: 0 0 1rem 0;
+  }
+}

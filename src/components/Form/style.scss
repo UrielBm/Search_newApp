@@ -1,0 +1,33 @@
+.form {
+  padding-top: 10rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  .wrappersection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapperButton {
+      box-sizing: border-box;
+      .button {
+        text-align: center;
+        font-size: 1.2rem;
+        background-color: rgb(88, 190, 243);
+        padding: 0.5rem 1rem;
+        color: #000;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 2rem;
+        outline: none;
+        width: 340px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .wrappersection {
+    flex-direction: column;
+  }
+}

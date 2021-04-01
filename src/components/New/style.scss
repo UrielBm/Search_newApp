@@ -1,0 +1,36 @@
+.noticia {
+  width: 340px;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  border: solid 2px #ccc;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  .wrapperImg {
+    display: flex;
+    width: 100%;
+    .img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+  }
+  .wrapperInformation {
+    .mostInformation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .link {
+      text-decoration: none;
+      color: rgb(36, 2, 36);
+      font-size: 1.2rem;
+      font-weight: bold;
+      &:hover {
+        font-size: 1.4rem;
+        color: rgb(153, 0, 153);
+      }
+    }
+    .source {
+      color: rgb(153, 0, 153);
+    }
+  }
+}
